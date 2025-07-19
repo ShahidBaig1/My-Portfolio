@@ -13,9 +13,14 @@ function Home() {
           This is Shahid Ullah — a passionate developer and designer focused on
           building beautiful and functional web experiences.
         </p>
-        <button className="mt-6 py-2 px-5 text-sm md:text-lg font-semibold rounded-3xl bg-[#465697] text-white hover:opacity-90 hover:scale-105 transition duration-300">
-          Contact Me
-        </button>
+        <a
+          href="https://www.linkedin.com/in/beg-shahid"
+          target="_blank"
+          rel="noopener noreferrer">
+          <button className="mt-6 py-2 px-5 text-sm md:text-lg font-semibold rounded-3xl cursor-pointer bg-[#465697] text-white hover:opacity-90 hover:scale-105 transition duration-300">
+            Contact Me
+          </button>
+        </a>
       </div>
 
       {/* Right Section - Image */}

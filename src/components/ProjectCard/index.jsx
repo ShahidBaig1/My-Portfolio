@@ -9,11 +9,13 @@ function Projects() {
       </h1>
       <div className="py-6  px-6 flex flex-wrap  gap-5 md:justify-around ">
         <CardProject
-          title="website"
+          demoLink="https://tinywholesale.netlify.app/"
+          title="Silicon Bets"
           desc="this is made by some desc here this is made by some desc here this is made by some desc here this is made by some desc here"
         />
         <CardProject
-          title="website"
+          demoLink="https://gitsilicon.netlify.app/"
+          title="Tiny Whole Sale"
           desc="this is made by some desc here this is made by some desc here this is made by some desc here this is made by some desc here"
         />
         <CardProject
